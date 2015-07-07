@@ -1,0 +1,2 @@
+user, book, date, start_time, end_time, bookmark_page, bookmark_line, next_step, comment
+bik, "python", 2015-7-6, 18:50, 19:06, 830, "static method", "", "none"
