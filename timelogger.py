@@ -16,7 +16,8 @@ def time_duration():
 	FMT = '%H:%M'
 	t1=datetime.strptime(h1, FMT)
 	t2=datetime.strptime(h2, FMT)
-	print (t2-t1).seconds/60
+	df =  (t2-t1).seconds/60
+	print dir(t2-t1)
 
 
 time_duration()
