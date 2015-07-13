@@ -21,6 +21,7 @@ def time_duration():
 	print df
 
 
-time_duration()
+if __name__ == "__main__":
+	time_duration()
 
 
