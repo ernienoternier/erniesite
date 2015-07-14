@@ -1,0 +1,15 @@
+$def with (todos)
+
+<ul>
+$for todo in todos:
+	<li>$todo.title</li>
+</ul>
+
+<br>
+
+<form method="post" action="todos/add">
+<p>
+<input type="text" name="title" />
+<input type="submit" value="Add"/>
+</p>
+</form>
