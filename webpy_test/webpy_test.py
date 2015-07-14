@@ -1,15 +1,14 @@
 import web
 
 urls = (
-'/', 'index'
+'/(.*)', 'index'
 )
 
 render = web.template.render('templates/')
 
 class index:
-	def GET(self):
-		i = web.input(name=None)
-		return render.index(i.name)
+	def GET(self, name):
+		return render.index(name)
 
 
 if __name__ == "__main__":
