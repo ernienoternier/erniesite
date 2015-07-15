@@ -2,6 +2,7 @@ import web
 
 urls = (
 '/todos', 'todo',
+'/storywall', 'storywall',
 '/todos/add', 'todoadd'
 )
 
@@ -16,6 +17,10 @@ class todo:
 	def GET(self):
 		todos = db.select('todo')
 		return render.todo(todos)
+class storywall:
+	def GET(self):
+		stories = db.select('story')
+		return render.story(stories)
 class todoadd:
 	def POST(self):
 		i = web.input()

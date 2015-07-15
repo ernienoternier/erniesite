@@ -1,0 +1,10 @@
+$def with(stories)
+<ul>
+$for story in stories:
+	<li>$story.title</li>
+	<ul>
+		<li>$story.content</li>
+	<ul/>
+
+</ul>
+
