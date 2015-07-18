@@ -18,3 +18,11 @@ python xxx.py [portNumber]
 
 [for Cygwin/babun:]
 localhost:portNumber
+
+
+---
+2015.7.18
+todo 
+    paging
+    css
+    html
