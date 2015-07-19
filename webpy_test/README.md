@@ -23,9 +23,9 @@ localhost:portNumber
 ---
 2015.7.18
 todo 
-    paging
+    // done // paging
     css
     html
 	
     ip filter
-    how to page in web.py
+    // done // how to page in web.py
