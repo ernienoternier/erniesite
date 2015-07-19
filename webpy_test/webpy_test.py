@@ -19,7 +19,8 @@ class todo:
 		return render.todo(todos)
 class storywall:
 	def GET(self):
-		stories = db.select('story')
+		stories = db.select('story', limit = "3, 6")
+		print dir(stories)
 		return render.story(stories)
 class todoadd:
 	def POST(self):
