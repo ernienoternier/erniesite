@@ -21,8 +21,11 @@ class storywall:
 	def GET(self):
 		i = web.input(page=None)
 		page = i.page
-		print "PAGE", page
-		stories = db.select('story', limit = "3, 6")
+		if page is not None and page.isdigit():
+			page = int(page)
+		else:
+			page=0
+		stories = db.select('story', limit = 3, offset=page*3)
 		print dir(stories)
 		return render.story(stories)
 class todoadd:
