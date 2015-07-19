@@ -26,3 +26,6 @@ todo
     paging
     css
     html
+	
+    ip filter
+    how to page in web.py
