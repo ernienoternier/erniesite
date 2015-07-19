@@ -1,9 +1,12 @@
 $def with(stories)
-    $for story in stories:
-    <ul>
-        <li>$story.title</li>
-        <ul>
-            <li>$story.content</li>
-        </ul>
-    </ul>
+    $if len(stories)<=0:
+	<p> There is no more data! </p>
+    $else:
+        $for story in stories:
+            <ul>
+                <li>$story.title</li>
+                <ul>
+                    <li>$story.content</li>
+                </ul>
+            </ul>
 
