@@ -26,6 +26,8 @@ todo
     // done // paging
     css
     html
+    html header footer
+     template more paramters
 	
     ip filter
     // done // how to page in web.py
