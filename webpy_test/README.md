@@ -31,3 +31,5 @@ todo
 	
     ip filter
     // done // how to page in web.py
+    cache
+    mysql db
