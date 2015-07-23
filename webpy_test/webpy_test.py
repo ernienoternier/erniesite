@@ -24,8 +24,8 @@ class storywall:
 		if page is not None and page.isdigit():
 			page = int(page)
 		else:
-			page=0
-		stories = db.select('story', limit = 3, offset=page*3)
+			page=1
+		stories = db.select('story', limit = 3, offset=(page-1)*3)
 		print dir(stories)
 		return render.story(stories)
 class todoadd:
