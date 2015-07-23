@@ -28,6 +28,7 @@ todo
     html
     html header footer
      template more paramters
+    static html page
 	
     ip filter
     // done // how to page in web.py
