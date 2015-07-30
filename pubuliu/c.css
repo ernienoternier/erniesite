@@ -1,0 +1,17 @@
+*{//通配符, 去掉所有的内外边距
+    padding: 0px;
+    margin: 0px;
+}
+.box{//设置内边距和浮动保证图片是逐次排开的
+    padding: 1px;
+    float: left;
+}
+.contend{//设置边框粗细和颜色装扮样式和阴影效果
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px red;
+}
+img{//设置图片宽度为定制高度自适应保证图片不失真
+    width: 200px;
+    height: auto;
+}
